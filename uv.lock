@@ -1999,6 +1999,7 @@ name = "supervised-challenge"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "imbalanced-learn" },
     { name = "imblearn" },
     { name = "matplotlib" },
     { name = "pandas" },
@@ -2018,6 +2019,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "imbalanced-learn", specifier = ">=0.14.0" },
     { name = "imblearn", specifier = ">=0.0" },
     { name = "matplotlib", specifier = ">=3.10.7" },
     { name = "pandas", specifier = ">=2.3.3" },
